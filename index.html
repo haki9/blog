@@ -230,7 +230,106 @@
           
   <main id="main">
     <h1>Home</h1>
-    <p>Welcome to <strong>Haki Blog</strong></p>
+    
+
+<p>Welcome to <strong>Haki Blog</strong></p>
+
+<h2 id="step-1-install-hugo">Step 1. Install Hugo</h2>
+
+<p>MAC OS</p>
+
+<pre class="cmd"><code>brew install hugo</code></pre>
+
+
+<h2 id="step-2-create-a-project">Step 2. Create A Project</h2>
+
+<pre class="cmd"><code>hugo new site myblog</code></pre>
+
+
+<h2 id="step-3-add-themes">Step 3. Add Themes</h2>
+
+<pre class="cmd"><code>cd myblog</code></pre>
+
+
+<pre class="cmd"><code>git init</code></pre>
+
+
+<pre class="cmd"><code>git submodule add https://github.com/zwbetz-gh/cupper-hugo-theme.git themes/cupper-hugo-theme</code></pre>
+
+
+<pre class="cmd"><code>cp theme/cupper-hugo-theme/exampleSite/config.toml config.toml</code></pre>
+
+
+<p>Copy folders and files in <strong>themes/cupper-hugo-theme/exampleSite/content</strong> to <strong>root content</strong></p>
+
+<h2 id="step-4-run">Step 4. Run</h2>
+
+<pre class="cmd"><code>hugo server</code></pre>
+
+
+<h2 id="step-4-upload-to-github-pages">Step 4. Upload to Github Pages</h2>
+
+<p>Create two repositories: <strong>hugo-blog</strong> and <strong>blog</strong></p>
+
+<p>In myblog path
+<pre class="cmd"><code>git remote add origin https://github.com/hugo-blog</code></pre>
+</p>
+
+<pre class="cmd"><code>vim .gitignore</code></pre>
+
+
+<p>Insert <em>public/</em> to .gitignore file</p>
+
+<pre class="cmd"><code>git add .</code></pre>
+
+
+<pre class="cmd"><code>git commit -m &#34;initial commit&#34;</code></pre>
+
+
+<pre class="cmd"><code>git push origin master</code></pre>
+
+
+<pre class="cmd"><code>cd ..</code></pre>
+
+
+<pre class="cmd"><code>git clone git remote add origin https://github.com/blog</code></pre>
+
+
+<pre class="cmd"><code>cd myblog</code></pre>
+
+
+<pre class="cmd"><code>hugo -d ../blog</code></pre>
+
+
+<pre class="cmd"><code>cd ..</code></pre>
+
+
+<pre class="cmd"><code>cd blog</code></pre>
+
+
+<pre class="cmd"><code>git add .</code></pre>
+
+
+<pre class="cmd"><code>git commit -m &#34;initial commit&#34;</code></pre>
+
+
+<pre class="cmd"><code>git push origin master</code></pre>
+
+
+<aside aria-label="note" class="note">
+  <div>
+    <svg class="sign" aria-hidden="true" viewBox="0 0 41.667306 41.66729" focusable="false">
+      <use xlink:href="#info"></use>
+    </svg>
+    <p>Change <strong>baseURL</strong> in config.toml when deploy on server</p>
+
+  </div>
+</aside>
+
+
+<h2 id="step-5-have-fun">Step 5. Have fun</h2>
+
+<p>The best way to learn something is to play with it.</p>
 
   </main>
 
