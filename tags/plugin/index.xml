@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Plugin on Haki Blog</title>
+    <link>https://haki9.github.io/blog/tags/plugin/</link>
+    <description>Recent content in Plugin on Haki Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 20 Mar 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://haki9.github.io/blog/tags/plugin/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Plugin with id &#39;com.github.dcendents.android-maven-plugin&#39; not found</title>
+      <link>https://haki9.github.io/blog/androidpluginnotfound/</link>
+      <pubDate>Wed, 20 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://haki9.github.io/blog/androidpluginnotfound/</guid>
+      <description> Problem Plugin with id &amp;lsquo;com.github.dcendents.android-maven-plugin&amp;rsquo; not found
+Fix  buildscript { repositories { jcenter() } dependencies { classpath &amp;#39;com.github.dcendents:android-maven-gradle-plugin:1.5&amp;#39; classpath &amp;#39;com.jfrog.bintray.gradle:gradle-bintray-plugin:1.7.3&amp;#39; } } apply plugin: &amp;#39;com.android.library&amp;#39; apply plugin: &amp;#39;com.android.library&amp;#39; apply plugin: &amp;#39;com.github.dcendents.android-maven&amp;#39; apply plugin: &amp;#39;com.github.dcendents.android-maven&amp;#39; apply plugin: &amp;#39;com.jfrog.bintray&amp;#39; apply plugin: &amp;#39;com.jfrog.bintray&amp;#39;  </description>
+    </item>
+    
+  </channel>
+</rss>

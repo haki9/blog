@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <meta name="generator" content="Hugo 0.54.0" />
-  <link rel="canonical" href="https://haki9.github.io/blog/about/">
+  <link rel="canonical" href="https://haki9.github.io/blog/androidpluginnotfound/">
 
   
 
@@ -32,7 +32,7 @@
 
   
   
-  <title>About | Haki Blog</title>
+  <title>Plugin with id &#39;com.github.dcendents.android-maven-plugin&#39; not found | Haki Blog</title>
 </head>
 
   <body>
@@ -168,7 +168,7 @@
       
       
       
-      <a href="/blog/post/" >
+      <a href="/blog/post/" aria-current="page">
         <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
           <use xlink:href="#bookmark"></use>
         </svg>
@@ -194,7 +194,7 @@
       
       
       
-      <a href="/blog/about/" aria-current="page">
+      <a href="/blog/about/" >
         <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
           <use xlink:href="#bookmark"></use>
         </svg>
@@ -223,12 +223,126 @@
         <div>
           
   <main id="main">
-    <h1>About</h1>
-    <p>The Website using <strong>world’s fastest framework for building websites : Huho</strong>. It is written in Go.</p>
+    <h1>
+      <svg class="bookmark-icon" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
+        <use xlink:href="#bookmark"></use>
+      </svg>
+      Plugin with id &#39;com.github.dcendents.android-maven-plugin&#39; not found
+    </h1>
+    <div class="date">
+      
+      <strong aria-hidden="true">Publish date: </strong>Mar 20, 2019
+    </div>
+    
+      <div class="tags">
+        <strong aria-hidden="true">Tags: </strong>
+        <ul aria-label="tags">
+          
+            <li>
+              <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
+                <use xlink:href="#tag"></use>
+              </svg>
+              
+              <a href="https://haki9.github.io/blog/tags/android/">android</a>
+            </li>
+          
+            <li>
+              <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
+                <use xlink:href="#tag"></use>
+              </svg>
+              
+              <a href="https://haki9.github.io/blog/tags/plugin/">plugin</a>
+            </li>
+          
+        </ul>
+      </div>
+    
+    
+      
 
-<p>And the themes is : <a href="https://github.com/zwbetz-gh/cupper-hugo-theme">Cupper</a>.</p>
+  <nav class="toc" aria-labelledby="toc-heading">
+    <h2 id="toc-heading">Table of contents</h2>
+    <ol>
+      
+        <li>
+          
+          
+          
+          
+          <a href="#problem">
+            Problem
+          </a>
+        </li>
+      
+        <li>
+          
+          
+          
+          
+          <a href="#fix">
+            Fix
+          </a>
+        </li>
+      
+    </ol>
+  </nav>
+
+
+    
+    
+
+<h2 id="problem">Problem</h2>
+
+<p>Plugin with id &lsquo;com.github.dcendents.android-maven-plugin&rsquo; not found</p>
+
+<h2 id="fix">Fix</h2>
+
+
+
+
+
+<div class="code-annotated numbered"><code>
+buildscript {
+	repositories {
+		jcenter()
+	}
+	dependencies {
+		classpath &#39;com.github.dcendents:android-maven-gradle-plugin:1.5&#39;
+		classpath &#39;com.jfrog.bintray.gradle:gradle-bintray-plugin:1.7.3&#39;
+	}
+}
+
+apply plugin: &#39;com.android.library&#39; apply plugin: &#39;com.android.library&#39;
+apply plugin: &#39;com.github.dcendents.android-maven&#39; apply plugin: &#39;com.github.dcendents.android-maven&#39;
+apply plugin: &#39;com.jfrog.bintray&#39; apply plugin: &#39;com.jfrog.bintray&#39;
+</code></div>
+
 
   </main>
+  <div id="disqus-container">
+  
+    <button id="disqus-button" onclick="showComments()">Show comments</button>
+    <div id="disqus-comments">
+      
+      
+      
+        <p>Disqus comments are disabled.</p>
+        <script type="application/javascript">
+          function showComments() {
+            // Remove button
+var disqusButton = document.getElementById('disqus-button');
+disqusButton.parentNode.removeChild(disqusButton); 
+// Un-hide comments
+var disqusComments = document.getElementById('disqus-comments');
+disqusComments.style.display = 'block'; 
+          }
+        </script>
+      
+      <noscript>Enable JavaScript to view Disqus comments.</noscript>
+    </div>
+  
+</div>
+
 
           <footer role="contentinfo">
   <div>

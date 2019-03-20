@@ -6,10 +6,45 @@
     <description>Recent content in Blog on Haki Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 14 Feb 2019 15:36:09 -0600</lastBuildDate>
+    <lastBuildDate>Wed, 20 Mar 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://haki9.github.io/blog/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Getting Started with Hugo</title>
+      <link>https://haki9.github.io/blog/hugoisforlovers/</link>
+      <pubDate>Wed, 20 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://haki9.github.io/blog/hugoisforlovers/</guid>
+      <description>Step 1. Install Hugo Go to Hugo releases and download the appropriate version for your OS and architecture.
+Save it somewhere specific as we will be using it in the next step.
+More complete instructions are available at Install Hugo
+Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
+Follow the following steps:
+ Clone the Hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:</description>
+    </item>
+    
+    <item>
+      <title>Import new module to Android Project</title>
+      <link>https://haki9.github.io/blog/android_add_module/</link>
+      <pubDate>Wed, 20 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://haki9.github.io/blog/android_add_module/</guid>
+      <description> Step 1. Download Module Unzip module after finish download
+Step 2. Import Module Follow the following steps:
+ File &amp;gt; New &amp;gt; Import Module Choose Source Directory and Finish Go to Settings.gradle add include &#39;:module_name&#39; File &amp;gt; Project Structure &amp;gt; Dependencies &amp;gt; Add(+) OR Add implementation project(&#39;:sipservice&#39;) in build.gradle(App)  </description>
+    </item>
+    
+    <item>
+      <title>Plugin with id &#39;com.github.dcendents.android-maven-plugin&#39; not found</title>
+      <link>https://haki9.github.io/blog/androidpluginnotfound/</link>
+      <pubDate>Wed, 20 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://haki9.github.io/blog/androidpluginnotfound/</guid>
+      <description> Problem Plugin with id &amp;lsquo;com.github.dcendents.android-maven-plugin&amp;rsquo; not found
+Fix  buildscript { repositories { jcenter() } dependencies { classpath &amp;#39;com.github.dcendents:android-maven-gradle-plugin:1.5&amp;#39; classpath &amp;#39;com.jfrog.bintray.gradle:gradle-bintray-plugin:1.7.3&amp;#39; } } apply plugin: &amp;#39;com.android.library&amp;#39; apply plugin: &amp;#39;com.android.library&amp;#39; apply plugin: &amp;#39;com.github.dcendents.android-maven&amp;#39; apply plugin: &amp;#39;com.github.dcendents.android-maven&amp;#39; apply plugin: &amp;#39;com.jfrog.bintray&amp;#39; apply plugin: &amp;#39;com.jfrog.bintray&amp;#39;  </description>
+    </item>
     
     <item>
       <title>Cupper Typography</title>
@@ -68,20 +103,6 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
       <guid>https://haki9.github.io/blog/goisforlovers/</guid>
       <description>Hugo uses the excellent Go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in Go templates.
 This document is a brief primer on using Go templates.</description>
-    </item>
-    
-    <item>
-      <title>Getting Started with Hugo</title>
-      <link>https://haki9.github.io/blog/hugoisforlovers/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://haki9.github.io/blog/hugoisforlovers/</guid>
-      <description>Step 1. Install Hugo Go to Hugo releases and download the appropriate version for your OS and architecture.
-Save it somewhere specific as we will be using it in the next step.
-More complete instructions are available at Install Hugo
-Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
-Follow the following steps:
- Clone the Hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:</description>
     </item>
     
     <item>

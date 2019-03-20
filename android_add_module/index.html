@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <meta name="generator" content="Hugo 0.54.0" />
-  <link rel="canonical" href="https://haki9.github.io/blog/about/">
+  <link rel="canonical" href="https://haki9.github.io/blog/android_add_module/">
 
   
 
@@ -32,7 +32,7 @@
 
   
   
-  <title>About | Haki Blog</title>
+  <title>Import new module to Android Project | Haki Blog</title>
 </head>
 
   <body>
@@ -168,7 +168,7 @@
       
       
       
-      <a href="/blog/post/" >
+      <a href="/blog/post/" aria-current="page">
         <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
           <use xlink:href="#bookmark"></use>
         </svg>
@@ -194,7 +194,7 @@
       
       
       
-      <a href="/blog/about/" aria-current="page">
+      <a href="/blog/about/" >
         <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
           <use xlink:href="#bookmark"></use>
         </svg>
@@ -223,12 +223,131 @@
         <div>
           
   <main id="main">
-    <h1>About</h1>
-    <p>The Website using <strong>world’s fastest framework for building websites : Huho</strong>. It is written in Go.</p>
+    <h1>
+      <svg class="bookmark-icon" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
+        <use xlink:href="#bookmark"></use>
+      </svg>
+      Import new module to Android Project
+    </h1>
+    <div class="date">
+      
+      <strong aria-hidden="true">Publish date: </strong>Mar 20, 2019
+    </div>
+    
+      <div class="tags">
+        <strong aria-hidden="true">Tags: </strong>
+        <ul aria-label="tags">
+          
+            <li>
+              <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
+                <use xlink:href="#tag"></use>
+              </svg>
+              
+              <a href="https://haki9.github.io/blog/tags/android/">android</a>
+            </li>
+          
+            <li>
+              <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
+                <use xlink:href="#tag"></use>
+              </svg>
+              
+              <a href="https://haki9.github.io/blog/tags/module/">module</a>
+            </li>
+          
+            <li>
+              <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
+                <use xlink:href="#tag"></use>
+              </svg>
+              
+              <a href="https://haki9.github.io/blog/tags/android-studio-3.1/">android studio 3.1</a>
+            </li>
+          
+            <li>
+              <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
+                <use xlink:href="#tag"></use>
+              </svg>
+              
+              <a href="https://haki9.github.io/blog/tags/pjsip/">pjsip</a>
+            </li>
+          
+        </ul>
+      </div>
+    
+    
+      
 
-<p>And the themes is : <a href="https://github.com/zwbetz-gh/cupper-hugo-theme">Cupper</a>.</p>
+  <nav class="toc" aria-labelledby="toc-heading">
+    <h2 id="toc-heading">Table of contents</h2>
+    <ol>
+      
+        <li>
+          
+          
+          
+          
+          <a href="#step-1-download-module">
+            Step 1. Download Module
+          </a>
+        </li>
+      
+        <li>
+          
+          
+          
+          
+          <a href="#step-2-import-module">
+            Step 2. Import Module
+          </a>
+        </li>
+      
+    </ol>
+  </nav>
+
+
+    
+    
+
+<h2 id="step-1-download-module">Step 1. Download Module</h2>
+
+<p>Unzip module after finish download</p>
+
+<h2 id="step-2-import-module">Step 2. Import Module</h2>
+
+<p>Follow the following steps:</p>
+
+<ol>
+<li>File &gt; New &gt; Import Module</li>
+<li>Choose Source Directory and Finish</li>
+<li>Go to Settings.gradle add <code>include ':module_name'</code></li>
+<li>File &gt; Project Structure &gt; Dependencies &gt; Add(+)</li>
+<li>OR Add <code>implementation project(':sipservice')</code> in build.gradle(App)</li>
+</ol>
 
   </main>
+  <div id="disqus-container">
+  
+    <button id="disqus-button" onclick="showComments()">Show comments</button>
+    <div id="disqus-comments">
+      
+      
+      
+        <p>Disqus comments are disabled.</p>
+        <script type="application/javascript">
+          function showComments() {
+            // Remove button
+var disqusButton = document.getElementById('disqus-button');
+disqusButton.parentNode.removeChild(disqusButton); 
+// Un-hide comments
+var disqusComments = document.getElementById('disqus-comments');
+disqusComments.style.display = 'block'; 
+          }
+        </script>
+      
+      <noscript>Enable JavaScript to view Disqus comments.</noscript>
+    </div>
+  
+</div>
+
 
           <footer role="contentinfo">
   <div>

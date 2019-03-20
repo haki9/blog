@@ -3,6 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://haki9.github.io/blog/about/</loc>
+    <lastmod>2019-03-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://haki9.github.io/blog/hugoisforlovers/</loc>
+    <lastmod>2019-03-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://haki9.github.io/blog/</loc>
+    <lastmod>2019-03-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://haki9.github.io/blog/android_add_module/</loc>
+    <lastmod>2019-03-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://haki9.github.io/blog/androidpluginnotfound/</loc>
+    <lastmod>2019-03-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://haki9.github.io/blog/cupper-typography/</loc>
     <lastmod>2019-02-14T15:36:09-06:00</lastmod>
   </url>
@@ -23,27 +48,12 @@
   </url>
   
   <url>
-    <loc>https://haki9.github.io/blog/</loc>
-    <lastmod>2017-06-26T18:27:58+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://haki9.github.io/blog/creating-a-new-theme/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://haki9.github.io/blog/about/</loc>
-    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://haki9.github.io/blog/goisforlovers/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://haki9.github.io/blog/hugoisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
@@ -53,8 +63,20 @@
   </url>
   
   <url>
+    <loc>https://haki9.github.io/blog/tags/android/</loc>
+    <lastmod>2019-03-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://haki9.github.io/blog/tags/android-studio-3.1/</loc>
+    <lastmod>2019-03-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://haki9.github.io/blog/post/</loc>
-    <lastmod>2019-02-14T15:36:09-06:00</lastmod>
+    <lastmod>2019-03-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -65,13 +87,13 @@
   
   <url>
     <loc>https://haki9.github.io/blog/tags/fun/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://haki9.github.io/blog/tags/git/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -83,7 +105,7 @@
   
   <url>
     <loc>https://haki9.github.io/blog/tags/hugo/</loc>
-    <lastmod>2019-02-14T15:36:09-06:00</lastmod>
+    <lastmod>2019-03-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -106,8 +128,26 @@
   </url>
   
   <url>
+    <loc>https://haki9.github.io/blog/tags/module/</loc>
+    <lastmod>2019-03-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://haki9.github.io/blog/tags/nasa/</loc>
     <lastmod>2018-12-27T20:46:49-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://haki9.github.io/blog/tags/pjsip/</loc>
+    <lastmod>2019-03-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://haki9.github.io/blog/tags/plugin/</loc>
+    <lastmod>2019-03-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -125,7 +165,7 @@
   
   <url>
     <loc>https://haki9.github.io/blog/tags/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

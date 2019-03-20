@@ -6,10 +6,28 @@
     <description>Recent content in Tags on Haki Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 20 Mar 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://haki9.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Android</title>
+      <link>https://haki9.github.io/blog/tags/android/</link>
+      <pubDate>Wed, 20 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://haki9.github.io/blog/tags/android/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Android Studio 3.1</title>
+      <link>https://haki9.github.io/blog/tags/android-studio-3.1/</link>
+      <pubDate>Wed, 20 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://haki9.github.io/blog/tags/android-studio-3.1/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Command Line</title>
@@ -23,7 +41,7 @@
     <item>
       <title>Fun</title>
       <link>https://haki9.github.io/blog/tags/fun/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 20 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://haki9.github.io/blog/tags/fun/</guid>
       <description></description>
@@ -32,7 +50,7 @@
     <item>
       <title>Git</title>
       <link>https://haki9.github.io/blog/tags/git/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 20 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://haki9.github.io/blog/tags/git/</guid>
       <description></description>
@@ -50,7 +68,7 @@
     <item>
       <title>Hugo</title>
       <link>https://haki9.github.io/blog/tags/hugo/</link>
-      <pubDate>Thu, 14 Feb 2019 15:36:09 -0600</pubDate>
+      <pubDate>Wed, 20 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://haki9.github.io/blog/tags/hugo/</guid>
       <description></description>
@@ -84,11 +102,38 @@
     </item>
     
     <item>
+      <title>Module</title>
+      <link>https://haki9.github.io/blog/tags/module/</link>
+      <pubDate>Wed, 20 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://haki9.github.io/blog/tags/module/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Nasa</title>
       <link>https://haki9.github.io/blog/tags/nasa/</link>
       <pubDate>Thu, 27 Dec 2018 20:46:49 -0600</pubDate>
       
       <guid>https://haki9.github.io/blog/tags/nasa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pjsip</title>
+      <link>https://haki9.github.io/blog/tags/pjsip/</link>
+      <pubDate>Wed, 20 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://haki9.github.io/blog/tags/pjsip/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Plugin</title>
+      <link>https://haki9.github.io/blog/tags/plugin/</link>
+      <pubDate>Wed, 20 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://haki9.github.io/blog/tags/plugin/</guid>
       <description></description>
     </item>
     
