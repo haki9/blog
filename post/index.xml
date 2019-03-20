@@ -47,6 +47,16 @@ Fix  buildscript { repositories { jcenter() } dependencies { classpath &amp;#39;
     </item>
     
     <item>
+      <title>Web Tips</title>
+      <link>https://haki9.github.io/blog/website_tip_links/</link>
+      <pubDate>Wed, 20 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://haki9.github.io/blog/website_tip_links/</guid>
+      <description>Deploy Websites In Seconds With Netlify In this video, Traversy will show you how to deploy a website or frontend application to Netlify which is a fantastic service for hosting with free SSL, server-side functions and even built in form functionality.
+Youtube - Traversy Media</description>
+    </item>
+    
+    <item>
       <title>Cupper Typography</title>
       <link>https://haki9.github.io/blog/cupper-typography/</link>
       <pubDate>Thu, 14 Feb 2019 15:36:09 -0600</pubDate>
