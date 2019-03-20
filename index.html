@@ -248,16 +248,10 @@
 
 <h2 id="step-3-add-themes">Step 3. Add Themes</h2>
 
-<pre class="cmd"><code>cd myblog</code></pre>
-
-
-<pre class="cmd"><code>git init</code></pre>
-
-
-<pre class="cmd"><code>git submodule add https://github.com/zwbetz-gh/cupper-hugo-theme.git themes/cupper-hugo-theme</code></pre>
-
-
-<pre class="cmd"><code>cp theme/cupper-hugo-theme/exampleSite/config.toml config.toml</code></pre>
+<pre class="cmd"><code>cd myblog
+git init
+git submodule add https://github.com/zwbetz-gh/cupper-hugo-theme.git themes/cupper-hugo-theme
+cp theme/cupper-hugo-theme/exampleSite/config.toml config.toml</code></pre>
 
 
 <p>Copy folders and files in <strong>themes/cupper-hugo-theme/exampleSite/content</strong> to <strong>root content</strong></p>
@@ -272,48 +266,24 @@
 <p>Create two repositories: <strong>hugo-blog</strong> and <strong>blog</strong></p>
 
 <p>In myblog path
-<pre class="cmd"><code>git remote add origin https://github.com/hugo-blog</code></pre>
+<pre class="cmd"><code>git remote add origin https://github.com/hugo-blog
+vim .gitignore</code></pre>
 </p>
-
-<pre class="cmd"><code>vim .gitignore</code></pre>
-
 
 <p>Insert <em>public/</em> to .gitignore file</p>
 
-<pre class="cmd"><code>git add .</code></pre>
-
-
-<pre class="cmd"><code>git commit -m &#34;initial commit&#34;</code></pre>
-
-
-<pre class="cmd"><code>git push origin master</code></pre>
-
-
-<pre class="cmd"><code>cd ..</code></pre>
-
-
-<pre class="cmd"><code>git clone git remote add origin https://github.com/blog</code></pre>
-
-
-<pre class="cmd"><code>cd myblog</code></pre>
-
-
-<pre class="cmd"><code>hugo -d ../blog</code></pre>
-
-
-<pre class="cmd"><code>cd ..</code></pre>
-
-
-<pre class="cmd"><code>cd blog</code></pre>
-
-
-<pre class="cmd"><code>git add .</code></pre>
-
-
-<pre class="cmd"><code>git commit -m &#34;initial commit&#34;</code></pre>
-
-
-<pre class="cmd"><code>git push origin master</code></pre>
+<pre class="cmd"><code>git add .
+git commit -m &#34;initial commit&#34;
+git push origin master
+cd ..
+git clone git remote add origin https://github.com/blog
+cd myblog
+hugo -d ../blog
+cd ..
+cd blog
+git add .
+git commit -m &#34;initial commit&#34;
+git push origin master</code></pre>
 
 
 <aside aria-label="note" class="note">
