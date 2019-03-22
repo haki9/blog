@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Pjsip on Haki Blog</title>
-    <link>https://haki9.github.io/blog/tags/pjsip/</link>
-    <description>Recent content in Pjsip on Haki Blog</description>
+    <title>Openh264 on Haki Blog</title>
+    <link>https://haki9.github.io/blog/tags/openh264/</link>
+    <description>Recent content in Openh264 on Haki Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 22 Mar 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://haki9.github.io/blog/tags/pjsip/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://haki9.github.io/blog/tags/openh264/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,17 +18,6 @@
       
       <guid>https://haki9.github.io/blog/android_pjsip_build_lib/</guid>
       <description>Step 1. Download openh264  Unzip file and move to /User/me Create new folder: android in openh264 folder Modified OpenH264&amp;rsquo;s Makefile by setting PREFIX=android And  make OS=android NDKROOT=&amp;lt;path-to-ndk&amp;gt; TARGET=android-19 APP_ABI=armeabi ARCH=arm make OS=android NDKROOT=&amp;lt;path-to-ndk&amp;gt; TARGET=android-19 APP_ABI=armeabi ARCH=arm clean make install OS=android NDKROOT=&amp;lt;path-to-ndk&amp;gt; TARGET=android-19 APP_ABI=armeabi ARCH=arm    Step 2. Create config_site.h  Download pjsip from repository Create config_site.h Go to /path/to/your/pjsip/dir/pjlib/include/pj Copy config_site_sample.h Rename copy file to config_site.</description>
-    </item>
-    
-    <item>
-      <title>Import new module to Android Project</title>
-      <link>https://haki9.github.io/blog/android_add_module/</link>
-      <pubDate>Wed, 20 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://haki9.github.io/blog/android_add_module/</guid>
-      <description> Step 1. Download Module Unzip module after finish download
-Step 2. Import Module Follow the following steps:
- File &amp;gt; New &amp;gt; Import Module Choose Source Directory and Finish Go to Settings.gradle add include &#39;:module_name&#39; File &amp;gt; Project Structure &amp;gt; Dependencies &amp;gt; Add(+) OR Add implementation project(&#39;:sipservice&#39;) in build.gradle(App)  </description>
     </item>
     
   </channel>

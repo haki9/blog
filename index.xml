@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Build PJSIP with openh264</title>
+      <link>https://haki9.github.io/blog/android_pjsip_build_lib/</link>
+      <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://haki9.github.io/blog/android_pjsip_build_lib/</guid>
+      <description>Step 1. Download openh264  Unzip file and move to /User/me Create new folder: android in openh264 folder Modified OpenH264&amp;rsquo;s Makefile by setting PREFIX=android And  make OS=android NDKROOT=&amp;lt;path-to-ndk&amp;gt; TARGET=android-19 APP_ABI=armeabi ARCH=arm make OS=android NDKROOT=&amp;lt;path-to-ndk&amp;gt; TARGET=android-19 APP_ABI=armeabi ARCH=arm clean make install OS=android NDKROOT=&amp;lt;path-to-ndk&amp;gt; TARGET=android-19 APP_ABI=armeabi ARCH=arm    Step 2. Create config_site.h  Download pjsip from repository Create config_site.h Go to /path/to/your/pjsip/dir/pjlib/include/pj Copy config_site_sample.h Rename copy file to config_site.</description>
+    </item>
+    
+    <item>
       <title>About</title>
       <link>https://haki9.github.io/blog/about/</link>
       <pubDate>Wed, 20 Mar 2019 00:00:00 +0000</pubDate>
