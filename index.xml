@@ -21,6 +21,21 @@
     </item>
     
     <item>
+      <title>SIP in Androird with Linphone</title>
+      <link>https://haki9.github.io/blog/android_linphone/</link>
+      <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://haki9.github.io/blog/android_linphone/</guid>
+      <description>EasyPhone This is a simple project with Linphone.
+This requires the linphone SDK 3.x. It&amp;rsquo;s not compatable with 4.x versions currently available
+Linphone document : Here
+EasyPhone - GitHub: Here
+Download easy-phone.aar: Here
+Download liblinphone-sdk-release-3.4.1: Here
+How to Include an External .aar File Using Gradle? Here</description>
+    </item>
+    
+    <item>
       <title>About</title>
       <link>https://haki9.github.io/blog/about/</link>
       <pubDate>Wed, 20 Mar 2019 00:00:00 +0000</pubDate>
@@ -63,6 +78,19 @@ Follow the following steps:
       <description> Step 1. Download Module Unzip module after finish download
 Step 2. Import Module Follow the following steps:
  File &amp;gt; New &amp;gt; Import Module Choose Source Directory and Finish Go to Settings.gradle add include &#39;:module_name&#39; File &amp;gt; Project Structure &amp;gt; Dependencies &amp;gt; Add(+) OR Add implementation project(&#39;:sipservice&#39;) in build.gradle(App)  </description>
+    </item>
+    
+    <item>
+      <title>Include an External .aar File</title>
+      <link>https://haki9.github.io/blog/android_add_aar_file/</link>
+      <pubDate>Wed, 20 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://haki9.github.io/blog/android_add_aar_file/</guid>
+      <description>There are 2 ways to do that
+First Way: Using Android Studio Menu File -&amp;gt; New -&amp;gt; New Module -&amp;gt; Import .jar/.aar and import your .aar
+Then in your project’s build.gradle (the one under ‘app’) add the following:  dependencies { compile project(‘:Name-of-the-Project’) }  Clean Build after all the above steps.
+Second Way: By Creating libs Folder Follow the following steps:
+ Create ‘libs’ folder under src/main Copy your .</description>
     </item>
     
     <item>

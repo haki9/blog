@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sip on Haki Blog</title>
+    <link>https://haki9.github.io/blog/tags/sip/</link>
+    <description>Recent content in Sip on Haki Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 22 Mar 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://haki9.github.io/blog/tags/sip/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SIP in Androird with Linphone</title>
+      <link>https://haki9.github.io/blog/android_linphone/</link>
+      <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://haki9.github.io/blog/android_linphone/</guid>
+      <description>EasyPhone This is a simple project with Linphone.
+This requires the linphone SDK 3.x. It&amp;rsquo;s not compatable with 4.x versions currently available
+Linphone document : Here
+EasyPhone - GitHub: Here
+Download easy-phone.aar: Here
+Download liblinphone-sdk-release-3.4.1: Here
+How to Include an External .aar File Using Gradle? Here</description>
+    </item>
+    
+  </channel>
+</rss>

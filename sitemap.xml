@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>https://haki9.github.io/blog/android_linphone/</loc>
+    <lastmod>2019-03-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://haki9.github.io/blog/about/</loc>
     <lastmod>2019-03-20T00:00:00+00:00</lastmod>
   </url>
@@ -29,6 +34,11 @@
   
   <url>
     <loc>https://haki9.github.io/blog/android_add_module/</loc>
+    <lastmod>2019-03-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://haki9.github.io/blog/android_add_aar_file/</loc>
     <lastmod>2019-03-20T00:00:00+00:00</lastmod>
   </url>
   
@@ -131,6 +141,12 @@
   </url>
   
   <url>
+    <loc>https://haki9.github.io/blog/tags/linphone/</loc>
+    <lastmod>2019-03-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://haki9.github.io/blog/tags/markdown/</loc>
     <lastmod>2019-02-14T15:36:09-06:00</lastmod>
     <priority>0</priority>
@@ -187,6 +203,12 @@
   <url>
     <loc>https://haki9.github.io/blog/tags/shortcodes/</loc>
     <lastmod>2019-02-12T23:39:06-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://haki9.github.io/blog/tags/sip/</loc>
+    <lastmod>2019-03-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <meta name="generator" content="Hugo 0.54.0" />
-  <link rel="canonical" href="https://haki9.github.io/blog/tags/android/">
+  <link rel="canonical" href="https://haki9.github.io/blog/android_add_aar_file/">
 
   
 
@@ -32,7 +32,7 @@
 
   
   
-  <title>Android | Haki Blog</title>
+  <title>Include an External .aar File | Haki Blog</title>
 </head>
 
   <body>
@@ -168,7 +168,7 @@
       
       
       
-      <a href="/blog/post/" >
+      <a href="/blog/post/" aria-current="page">
         <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
           <use xlink:href="#bookmark"></use>
         </svg>
@@ -181,7 +181,7 @@
       
       
       
-      <a href="/blog/tags/" aria-current="page">
+      <a href="/blog/tags/" >
         <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
           <use xlink:href="#bookmark"></use>
         </svg>
@@ -223,77 +223,143 @@
         <div>
           
   <main id="main">
-    <h1>Android</h1>
-    <ul class="patterns-list">
+    <h1>
+      <svg class="bookmark-icon" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
+        <use xlink:href="#bookmark"></use>
+      </svg>
+      Include an External .aar File
+    </h1>
+    <div class="date">
+      
+      <strong aria-hidden="true">Publish date: </strong>Mar 20, 2019
+    </div>
     
-      <li>
-        <h2>
-          <a href="https://haki9.github.io/blog/android_linphone/">
-            <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-              <use xlink:href="#bookmark"></use>
-            </svg>
-            SIP in Androird with Linphone
+      <div class="tags">
+        <strong aria-hidden="true">Tags: </strong>
+        <ul aria-label="tags">
+          
+            <li>
+              <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
+                <use xlink:href="#tag"></use>
+              </svg>
+              
+              <a href="https://haki9.github.io/blog/tags/android/">android</a>
+            </li>
+          
+            <li>
+              <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
+                <use xlink:href="#tag"></use>
+              </svg>
+              
+              <a href="https://haki9.github.io/blog/tags/module/">module</a>
+            </li>
+          
+        </ul>
+      </div>
+    
+    
+      
+
+  <nav class="toc" aria-labelledby="toc-heading">
+    <h2 id="toc-heading">Table of contents</h2>
+    <ol>
+      
+        <li>
+          
+          
+          
+          
+          <a href="#first-way-using-android-studio-menu">
+            First Way: Using Android Studio Menu
           </a>
-        </h2>
-      </li>        
-    
-      <li>
-        <h2>
-          <a href="https://haki9.github.io/blog/android_pjsip_build_lib/">
-            <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-              <use xlink:href="#bookmark"></use>
-            </svg>
-            Build PJSIP with openh264
+        </li>
+      
+        <li>
+          
+          
+          
+          
+          <a href="#second-way-by-creating-libs-folder">
+            Second Way: By Creating libs Folder
           </a>
-        </h2>
-      </li>        
+        </li>
+      
+    </ol>
+  </nav>
+
+
     
-      <li>
-        <h2>
-          <a href="https://haki9.github.io/blog/androidpluginnotfound/">
-            <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-              <use xlink:href="#bookmark"></use>
-            </svg>
-            Plugin with id &#39;com.github.dcendents.android-maven-plugin&#39; not found
-          </a>
-        </h2>
-      </li>        
     
-      <li>
-        <h2>
-          <a href="https://haki9.github.io/blog/android_add_aar_file/">
-            <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-              <use xlink:href="#bookmark"></use>
-            </svg>
-            Include an External .aar File
-          </a>
-        </h2>
-      </li>        
-    
-      <li>
-        <h2>
-          <a href="https://haki9.github.io/blog/android_add_module/">
-            <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-              <use xlink:href="#bookmark"></use>
-            </svg>
-            Import new module to Android Project
-          </a>
-        </h2>
-      </li>        
-    
-      <li>
-        <h2>
-          <a href="https://haki9.github.io/blog/website_android_links/">
-            <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-              <use xlink:href="#bookmark"></use>
-            </svg>
-            Android Web Links
-          </a>
-        </h2>
-      </li>        
-    
-    </ul>
+
+<p>There are 2 ways to do that</p>
+
+<h2 id="first-way-using-android-studio-menu">First Way: Using Android Studio Menu</h2>
+
+<p>File -&gt; New -&gt; New Module -&gt; Import .jar/.aar and import your .aar</p>
+
+<p>Then in your project’s build.gradle (the one under ‘app’) add the following:
+
+
+
+
+<div class="code-annotated "><code>
+dependencies {
+ 	compile project(‘:Name-of-the-Project’)
+}
+</code></div>
+</p>
+
+<p>Clean Build after all the above steps.</p>
+
+<h2 id="second-way-by-creating-libs-folder">Second Way: By Creating libs Folder</h2>
+
+<p>Follow the following steps:</p>
+
+<ol>
+<li>Create ‘libs’ folder under src/main</li>
+<li>Copy your .aar file to src/main/libs</li>
+<li>Open <strong>build.gradle</strong> file(the one under ‘app’) and add in dependencies <strong>compile(name:’my_library’, ext:’aar’)</strong></li>
+<li>Open the top level <strong>build.gradle</strong> file and add (<em>below jcenter()</em>)
+
+
+
+
+<div class="code-annotated "><code>
+ flatDir { 
+ 	dirs ‘src/main/libs’ 
+ }
+ </code></div>
+</li>
+<li>Get back to coding</li>
+</ol>
+
+<p>Source: <a href="https://medium.com/@notestomyself/how-to-include-external-aar-file-using-gradle-6604b378e808">Medium</a></p>
+
   </main>
+  <div id="disqus-container">
+  
+    <button id="disqus-button" onclick="showComments()">Show comments</button>
+    <div id="disqus-comments">
+      
+      
+      
+        <p>Disqus comments are disabled.</p>
+        <script type="application/javascript">
+          function showComments() {
+            // Remove button
+var disqusButton = document.getElementById('disqus-button');
+disqusButton.parentNode.removeChild(disqusButton); 
+// Un-hide comments
+var disqusComments = document.getElementById('disqus-comments');
+disqusComments.style.display = 'block'; 
+          }
+        </script>
+      
+      <noscript>Enable JavaScript to view Disqus comments.</noscript>
+    </div>
+  
+</div>
+
 
           <footer role="contentinfo">
   <div>
