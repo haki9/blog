@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Constructor on Haki Blog</title>
+    <link>https://haki9.github.io/blog/tags/constructor/</link>
+    <description>Recent content in Constructor on Haki Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 25 Mar 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://haki9.github.io/blog/tags/constructor/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Kotlin Coroutines Tutorial (STABLE VERSION) – async / await, withContext, launch</title>
+      <link>https://haki9.github.io/blog/android_kotlin_coroutines/</link>
+      <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://haki9.github.io/blog/android_kotlin_coroutines/</guid>
+      <description>import kotlinx.coroutines.* import java.util.concurrent.ExecutorService import java.util.concurrent.Executors fun main(args: Array&amp;lt;String&amp;gt;) { exampleWithContext() } suspend fun printlnDelayed(message: String) { // Complex calculation delay(1000) println(message) } suspend fun calculateHardThings(startNum: Int): Int { delay(1000) return startNum * 10 } fun exampleBlocking() = runBlocking { println(&amp;quot;one&amp;quot;) printlnDelayed(&amp;quot;two&amp;quot;) println(&amp;quot;three&amp;quot;) } // Running on another thread but still blocking the main thread fun exampleBlockingDispatcher(){ runBlocking(Dispatchers.Default) { println(&amp;quot;one - from thread ${Thread.currentThread().name}&amp;quot;) printlnDelayed(&amp;quot;two - from thread ${Thread.currentThread().name}&amp;quot;) } // Outside of runBlocking to show that it&#39;s running in the blocked main thread println(&amp;quot;three - from thread ${Thread.</description>
+    </item>
+    
+    <item>
+      <title>Learn Kotlin Quickly - Constructors And Properties</title>
+      <link>https://haki9.github.io/blog/android_kotlin_constructor/</link>
+      <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://haki9.github.io/blog/android_kotlin_constructor/</guid>
+      <description>Constructor  class Person (private var name: String, private var age: Int){ init { println(&amp;#34;Person $name was created!&amp;#34;) } constructor(name: String): this(name, Random().nextInt()){ println(&amp;#34;Secondary contructor was invoked!&amp;#34;) } fun describeYourself() = println(&amp;#34;My name is $name and I am $age years old.&amp;#34;) }  Properties  class Computer{ var cost = 500f val name = &amp;#34;Apple&amp;#34; lateinit var currentUser: String val isExpensive : Boolean get() = cost &amp;gt; 1000 var properties: String = &amp;#34;&amp;#34; set(value) { field = value println(&amp;#34;Properties were changed&amp;#34;) } var id = 10 private set init { this.</description>
+    </item>
+    
+  </channel>
+</rss>

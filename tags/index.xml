@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Haki Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 22 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 25 Mar 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://haki9.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Android</title>
       <link>https://haki9.github.io/blog/tags/android/</link>
-      <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://haki9.github.io/blog/tags/android/</guid>
       <description></description>
@@ -35,6 +35,15 @@
       <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
       
       <guid>https://haki9.github.io/blog/tags/command-line/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Constructor</title>
+      <link>https://haki9.github.io/blog/tags/constructor/</link>
+      <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://haki9.github.io/blog/tags/constructor/</guid>
       <description></description>
     </item>
     
@@ -75,11 +84,29 @@
     </item>
     
     <item>
+      <title>Iot</title>
+      <link>https://haki9.github.io/blog/tags/iot/</link>
+      <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://haki9.github.io/blog/tags/iot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Jekyll</title>
       <link>https://haki9.github.io/blog/tags/jekyll/</link>
       <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
       
       <guid>https://haki9.github.io/blog/tags/jekyll/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kotlin</title>
+      <link>https://haki9.github.io/blog/tags/kotlin/</link>
+      <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://haki9.github.io/blog/tags/kotlin/</guid>
       <description></description>
     </item>
     
@@ -215,6 +242,15 @@
       <pubDate>Wed, 20 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://haki9.github.io/blog/tags/web/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Youtube</title>
+      <link>https://haki9.github.io/blog/tags/youtube/</link>
+      <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://haki9.github.io/blog/tags/youtube/</guid>
       <description></description>
     </item>
     
