@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Gradle and Groovy</title>
+      <link>https://haki9.github.io/blog/android_gradle/</link>
+      <pubDate>Tue, 26 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://haki9.github.io/blog/android_gradle/</guid>
+      <description> Step 1. Intall Gradle on Mac brew install gradle Step 2. Write code  task groovy { doLast { println &amp;#34;Hello Gradle&amp;#34; oneArg &amp;#34;10&amp;#34; } } def oneArg(x){ println &amp;#34;value 1 : $x&amp;#34; }  Step 3. Run gradle groovy Done : ) </description>
+    </item>
+    
+    <item>
       <title>Kotlin Coroutines Tutorial (STABLE VERSION) – async / await, withContext, launch</title>
       <link>https://haki9.github.io/blog/android_kotlin_coroutines/</link>
       <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
